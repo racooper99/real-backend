@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "capAdventures-res"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-nzxjcxp4dlg2"
+s3_prefix = "capAdventures-res"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
